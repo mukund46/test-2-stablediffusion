@@ -7,7 +7,7 @@ from io import BytesIO
 st.set_page_config(page_title="Juggernaut v6 Image Generator", layout="centered")
 st.title("🎨 Juggernaut v6 Image Generator")
 
-HF_TOKEN = os.environ.get("HF_TOKEN", None)
+HF_TOKEN = "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"
 MODEL_ID = "stablediffusionapi/juggernaut-v6"
 
 @st.cache_resource(show_spinner=False)
